@@ -1,0 +1,4 @@
+GET {{host}}:{{port}}/api/products
+Accept: application/json
+
+###
