@@ -2,3 +2,6 @@ GET {{host}}:{{port}}/api/products
 Accept: application/json
 
 ###
+
+GET {{host}}:{{port}}/api/products/search/findByCategoryId?id=2
+Accept: application/json
