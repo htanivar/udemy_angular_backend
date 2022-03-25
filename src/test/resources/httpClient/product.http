@@ -1,6 +1,13 @@
 GET {{host}}:{{port}}/api/products
 Accept: application/json
 
+
+### Get specific product
+
+GET {{host}}:{{port}}/api/products/2
+Accept: application/json
+
+
 ### Search by Category ID
 
 GET {{host}}:{{port}}/api/products/search/findByCategoryId?id=2
