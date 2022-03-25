@@ -1,7 +1,6 @@
 GET {{host}}:{{port}}/api/products
 Accept: application/json
 
-
 ### Get specific product
 
 GET {{host}}:{{port}}/api/products/2
